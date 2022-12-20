@@ -7,3 +7,6 @@
 # Development
 .idea
 .env
+
+# Dependencies
+/node_modules

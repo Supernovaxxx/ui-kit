@@ -1,15 +1,11 @@
 {
   "name": "@supernovaxxx/web-ui-kit",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "Utilities to support progressive web apps development",
-
   "exports": {
-    "./*": "./src/sass/*.scss",
-    "./utils": "./src/js/css-utils.ts"
+    ".": "./src/*"
   },
   "scripts": {},
-
-
   "author": "Arthur Henrique <Arthur.Henrique.Della.Fraga@gmail.com> (https://github.com/artu-hnrq)",
   "license": "GPL-3.0",
   "repository": {
@@ -23,5 +19,8 @@
   "keywords": [
     "ui-kit",
     "pwa"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
