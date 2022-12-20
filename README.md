@@ -1,25 +1,12 @@
-# Conceptual Repository
-> This intends to be a [readme-documented][-0], [open-source-licensed][-1], [semantic-versioned][-2],
-[conventional-committed][-3] and [changelogged][-4] git repository starting point
-for the development of a brand-new project
+# Web ui kit
 
-A straightforward beginning for an open-source project repository
+Utilities to support progressive web apps development
 
-[-0]: https://www.makeareadme.com/ "Make a README"
-[-1]: https://choosealicense.com/licenses/ "Choose a License"
-[-2]: https://semver.org/ "Semantic Versioning"
-[-3]: https://www.conventionalcommits.org/en/v1.0.0/ "Conventional Commits"
-[-4]: https://keepachangelog.com/en/1.0.0/ "Keep a Changelog"
-
-[>0]: https://github.com/RichardLitt/standard-readme/blob/master/spec.md "Standard readme specification"
 [>1]: https://www.repostatus.org "Repo maintenance status"
 [>2]: https://choosealicense.com/licenses/gpl-3.0/ "GPL 3.0 License description"
 
-[!0]: https://github.com/generic-tree/root/generate "Github repository's template generation URL"
-
-[B0]: https://img.shields.io/static/v1?label=create%20a%20new%20repository&message=%20&style=social "Create new repository"
 [B1]: https://www.repostatus.org/badges/latest/concept.svg "Repostatus active badge"
-[B2]: https://img.shields.io/github/license/generic-tree/root?color=green "License badge"
+[B2]: https://img.shields.io/github/license/supernovaxxx/web-ui-kit?color=green "License badge"
 
 ### Table of Contents
 <details>
@@ -27,7 +14,6 @@ A straightforward beginning for an open-source project repository
 
   * [Getting started](#getting-started)
     * [Development environment](#development-environment)
-    * [Repo publication](#repo-publication)
   * [Project specifications](#project-specifications)
     * [Features](#features)
     * [Folder structure](#folder-structure)
@@ -38,38 +24,33 @@ A straightforward beginning for an open-source project repository
 
 
 ## Getting started
-First of all, [![create a new repository][B0]][!0] from this template, \
-Name it accordingly and place where it best fits for your team.
+First of all, install package as a dependence of your project
+
+```bash
+$ npm install --save @supernovaxxx/web-ui-kit
+```
 
 ### Development environment
-Make sure you have `Git` installed:
+Make sure you have `Git`, `Node` and `NPM` installed:
 ```bash
 $ git --version
 git version 2.25.1
+$ node --version
+v18.12.1
+$ npm --version
+9.2.0
 ```
 
 Thus, clone the recent-created repository locally,
 and you'll be ready to start developing your project.
 
-### Repo publication
-After all, you should make this project your own. \
-Write a good README to present it to the world. \
-And also ensure to tailor the project license to your needs,
-as well as assign a suitable maintenance status.
-
 
 ## Project specifications
-Here some descriptions about this template project:
+Here some descriptions about this package:
 
 ### Features
-This project shortens a repository start setup, considering:
-* Inclusion of a mature README document, inspired by [Standard Readme][>0]
-* Inclusion of an open-source LICENSE file
-* Inclusion of a structured, yet raw, CHANGELOG file
-* Compliance with widely-used version control conventions, such as:
-    * [Semantic Versioning][-2]
-    * [Conventional Commit][-3]
-    * [Keep a Changelog][-4]
+This includes the following utilities to streamline web ui development:
+_...to be described_
 
 ### Folder structure
 ```
@@ -78,6 +59,7 @@ This project shortens a repository start setup, considering:
 ├── .gitignore                  VCS ignored files manifest
 ├── CHANGELOG.md                Release notes description
 ├── LICENSE                     License file
+├── package.json                Node package descriptor
 └── README.md                   Repo readme document
 ```
 

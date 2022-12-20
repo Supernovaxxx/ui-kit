@@ -1,0 +1,25 @@
+{
+  "name": "@supernovaxxx/web-ui-kit",
+  "version": "1.0.0",
+  "description": "Utilities to support progressive web apps development",
+
+  "main": "src/index.js",
+  "scripts": {
+    "publish": "npm publish"
+  },
+
+  "author": "Arthur Henrique <Arthur.Henrique.Della.Fraga@gmail.com> (https://github.com/artu-hnrq)",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supernovaxxx/web-ui-kit.git"
+  },
+  "homepage": "https://github.com/supernovaxxx/web-ui-kit#readme",
+  "bugs": {
+    "url": "https://github.com/supernovaxxx/web-ui-kit/issues"
+  },
+  "keywords": [
+    "ui-kit",
+    "pwa"
+  ]
+}
